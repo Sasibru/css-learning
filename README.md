@@ -1,1 +1,1 @@
-# css-learning
+This is simply just so i can get a better understanding of css.
