@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 
@@ -31,23 +32,28 @@ div {
 }
 
 .index-menu-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background: lightblue;
+    width: auto;
+    padding: 16px;
+    border: 3px solid black;
     justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: flex;
 }
 
-.index-menu-container li {
-    list-style-type: none;
-    color: black;
-    background: rgb(151, 224, 226);
-    border: solid rgb(0, 0, 0);
-    height: 30px;
-    width: 200px;
-    flex: 1 1 auto;
+.index-menu-container .index-list {
+    background: lightcoral;
+    border: 2px solid blue;
+    height: 20px;
+    width: auto;
+    padding: 4 px;
+    font-weight: bold;
+
 }
 
 .flex-container {
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
