@@ -40,7 +40,7 @@ div {
     display: flex;
 }
 
-.index-menu-container .index-list {
+.index-menu-container .menu-box {
     background: lightcoral;
     border: 2px solid blue;
     height: 20px;
